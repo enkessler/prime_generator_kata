@@ -1,0 +1,5 @@
+require_relative '../lib/prime_number_generator'
+
+prime_list = PrimeNumberGenerator::Generator.new.generate_primes(ARGV[0].to_i, ARGV[1].to_i)
+
+print prime_list.join(', ')

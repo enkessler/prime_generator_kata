@@ -1,0 +1,11 @@
+
+Design notes:
+- Off the shelf prime generator and tester used in order to focus on simplicity of overall project/deliverable
+and due to time constraints.
+
+- Future improvements: A more performant sieve could be implemented. The Sieve of Eratosthenes relies on the
+assumption that any unvisited number (in particular, the first number) in a range must be a prime. This means
+that if we want to not have to calculate the list from 2 every time, we need to ensure that the first number in
+our search list is still a prime. We could use the #is_prime? method to check for primes starting at the
+beginning of the input range and, once one is found, kickstart the sieve from there. This will let us only have
+to spend time calculating primes that fall within the input range.
