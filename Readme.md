@@ -2,7 +2,9 @@
 
 ## Installation
 
-`bundle install`
+1. `gem install bundler`
+
+2. `bundle install`
 
 ## Usage
 
